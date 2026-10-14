@@ -3,7 +3,9 @@ import { useMemo, useState } from "react";
 import RouteMap from "./RouteMap";
 import "./App.css";
 
-const API_URL = "http://127.0.0.1:8000/api/analyze/";
+
+const API_URL = "https://spotter-weather-routing-api-q1as.onrender.com/api/analyze/";
+
 
 function App() {
   const [origin, setOrigin] = useState("New York, USA");
